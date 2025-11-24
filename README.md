@@ -9,8 +9,6 @@ This repo contains the following:
 2. An Apigee [Proxy](https://cloud.google.com/apigee/docs/api-platform/fundamentals/understanding-apis-and-api-proxies#whatisanapiproxy) implementation that serves the API responses to the agent.
     * This sample proxy implementation returns mock data generated using Gemini.
 
-![architecture](./images/arch.png)
-
 
 ## Pre-Requisites
 
