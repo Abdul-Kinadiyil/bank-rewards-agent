@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables continueOnError="false" enabled="true" name="EV-ExtractRole">
+  <DisplayName>EV-ExtractRole</DisplayName>
+  <JSONPayload>
+    <Variable name="realmRole" type="string">
+      <JSONPath>$.roles[?(@ == 'rewards' || @ == 'admin')]</JSONPath>
+    </Variable>
+  </JSONPayload>
+  <Source>jwt.JWT-VerifyKeyCloakToken.claim.realm_access</Source>
+  <VariablePrefix>keycloak</VariablePrefix>
+</ExtractVariables>

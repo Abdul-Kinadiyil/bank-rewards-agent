@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="20" name="rewards">
+  <DisplayName/>
+  <Description>This API manages insurance claims, members, rewards and roadside assistance services</Description>
+  <CreatedAt>1763588373807</CreatedAt>
+  <LastModifiedAt>1763597352786</LastModifiedAt>
+  <BasePaths>/v1/crm</BasePaths>
+  <Policies>
+    <Policy>AM-ListRewards</Policy>
+    <Policy>AM-SetNoContent</Policy>
+    <Policy>AM-SetTarget</Policy>
+    <Policy>CORS</Policy>
+    <Policy>JS-SetResponse</Policy>
+    <Policy>VA-VerifyKey</Policy>
+    <Policy>OAuthV2-VerifyAccessToken</Policy>
+    <Policy>JWT-VerifyKeyCloakToken</Policy>
+    <Policy>EV-ExtractRole</Policy>
+    <Policy>RF-UnAuthorizedAccess</Policy>
+    <Policy>AM-ListMembers</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>properties://vertex_config.properties</Resource>
+  </Resources>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

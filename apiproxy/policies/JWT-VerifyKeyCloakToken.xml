@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT continueOnError="false" enabled="true" name="JWT-VerifyKeyCloakToken">
+  <DisplayName>JWT-VerifyKeyCloakToken</DisplayName>
+  <Algorithm>RS256</Algorithm>
+  <!--<Source clearPrefix="true">request.header.Authorization</Source>-->
+  <PublicKey>
+    <JWKS uri="https://34.98.124.91.nip.io/realms/ai-realm/protocol/openid-connect/certs"/>
+  </PublicKey>
+  <Issuer>https://34.98.124.91.nip.io/realms/ai-realm</Issuer>
+  <AdditionalClaims>
+    <Claim name="azp">crmagent</Claim>
+  </AdditionalClaims>
+</VerifyJWT>

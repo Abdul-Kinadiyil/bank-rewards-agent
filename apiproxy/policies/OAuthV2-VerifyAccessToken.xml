@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 continueOnError="false" enabled="true" name="OAuthV2-VerifyAccessToken">
+  <DisplayName>OAuth-VerifyAccessToken</DisplayName>
+  <Operation>VerifyJWTAccessToken</Operation>
+  <Algorithm>RS256</Algorithm>
+  <PublicKey>
+    <Value ref="private.propertyset.oauth_configuration.public_key"/>
+  </PublicKey>
+</OAuthV2>
