@@ -40,7 +40,7 @@ gcloud auth login
 Navigate to the 'bank-rewards' directory in the Cloud shell.
 
 ```sh
-cd bank-rewards
+cd bank-rewards-agent
 ```
 
 Edit the provided sample `env.sh` file, and set the environment variables there.
