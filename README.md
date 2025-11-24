@@ -1,4 +1,4 @@
-# Auto Insurance Agent APIs
+# Bank Rewards Agent
 
 This sample provides a set of APIs designed to act as tools for an [AI agent](https://cloud.google.com/discover/what-are-ai-agents) for bank rewards program.
 
